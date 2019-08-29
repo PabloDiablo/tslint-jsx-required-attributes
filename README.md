@@ -10,7 +10,7 @@ npm i -D tslint-jsx-required-attributes
 
 _tslint.json_
 
-```json
+```javascript
 "rulesDirectory": [
     "node_modules/tslint-jsx-required-attributes"
 ],
@@ -36,4 +36,4 @@ _tslint.json_
 
 ## Dependencies
 
-This package requires two peer dependencies: `typescript` and `tslint`. It installs one dependency: `tsutils`.
+This package requires two peer dependencies: `typescript` and `tslint`. It installs no additional dependencies.
