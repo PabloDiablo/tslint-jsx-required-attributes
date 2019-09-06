@@ -17,9 +17,12 @@ steps:
 
 - script: |
     yarn install
+  displayName: 'yarn install'
+
+- script: |
     yarn test
   displayName: 'test'
 
 - script: |
-    yarn build
+    yarn build:package
   displayName: 'build'
