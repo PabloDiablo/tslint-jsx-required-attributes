@@ -2,6 +2,8 @@
 
 > Custom rule for tslint
 
+[![Build Status](https://dev.azure.com/paul2005/paul2005/_apis/build/status/PabloDiablo.tslint-jsx-required-attributes?branchName=master)](https://dev.azure.com/paul2005/paul2005/_build/latest?definitionId=1&branchName=master)
+
 Require JSX elements to contain a specified attribute when they match either a specified element type or a specified attribute.
 
 ```shell
